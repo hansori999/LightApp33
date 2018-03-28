@@ -33,6 +33,22 @@ class ViewController: UIViewController {
         index = index + 1
         index %= self.messageArray.count
     }
+    
+    // Cleaning
+    func updateUI() {
+        if lightOn == true{
+            self.messageLabel.text = "White"
+            self.messageLabel.textColor = UIColor.white
+            view.backgroundColor = UIColor.black
+            self.messageButton.setTitle("Off", for: .normal)
+        } else {
+            self.messageLabel.text = "Black"
+            self.messageLabel.textColor = UIColor.black
+            view.backgroundColor = UIColor.white
+            self.messageButton.setTitle("On", for: .normal)
+        }
+    }
+
 
 }
 
