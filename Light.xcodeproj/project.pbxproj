@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D3870C720621D8000508029 /* FirstApp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3870C720621D8000508029 /* Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Light.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3870CA20621D8000508029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D3870CC20621D8000508029 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D3870CF20621D8000508029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		3D3870BE20621D8000508029 = {
 			isa = PBXGroup;
 			children = (
-				3D3870C920621D8000508029 /* FirstApp3 */,
+				3D3870C920621D8000508029 /* Light */,
 				3D3870C820621D8000508029 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		3D3870C820621D8000508029 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D3870C720621D8000508029 /* FirstApp3.app */,
+				3D3870C720621D8000508029 /* Light.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D3870C920621D8000508029 /* FirstApp3 */ = {
+		3D3870C920621D8000508029 /* Light */ = {
 			isa = PBXGroup;
 			children = (
 				3D3870CA20621D8000508029 /* AppDelegate.swift */,
@@ -61,15 +61,16 @@
 				3D3870D320621D8000508029 /* LaunchScreen.storyboard */,
 				3D3870D620621D8000508029 /* Info.plist */,
 			);
-			path = FirstApp3;
+			name = Light;
+			path = LightApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D3870C620621D8000508029 /* FirstApp3 */ = {
+		3D3870C620621D8000508029 /* Light */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D3870D920621D8000508029 /* Build configuration list for PBXNativeTarget "FirstApp3" */;
+			buildConfigurationList = 3D3870D920621D8000508029 /* Build configuration list for PBXNativeTarget "Light" */;
 			buildPhases = (
 				3D3870C320621D8000508029 /* Sources */,
 				3D3870C420621D8000508029 /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = FirstApp3;
+			name = Light;
 			productName = FirstApp3;
-			productReference = 3D3870C720621D8000508029 /* FirstApp3.app */;
+			productReference = 3D3870C720621D8000508029 /* Light.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3D3870C220621D8000508029 /* Build configuration list for PBXProject "FirstApp3" */;
+			buildConfigurationList = 3D3870C220621D8000508029 /* Build configuration list for PBXProject "Light" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D3870C620621D8000508029 /* FirstApp3 */,
+				3D3870C620621D8000508029 /* Light */,
 			);
 		};
 /* End PBXProject section */
@@ -276,10 +277,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y3Z2Z567H;
-				INFOPLIST_FILE = FirstApp3/Info.plist;
+				INFOPLIST_FILE = LightApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.sogang.cscp2.prof.FirstApp3;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.sogang.cscp2.prof.LightApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,10 +293,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y3Z2Z567H;
-				INFOPLIST_FILE = FirstApp3/Info.plist;
+				INFOPLIST_FILE = LightApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.sogang.cscp2.prof.FirstApp3;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.sogang.cscp2.prof.LightApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D3870C220621D8000508029 /* Build configuration list for PBXProject "FirstApp3" */ = {
+		3D3870C220621D8000508029 /* Build configuration list for PBXProject "Light" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D3870D720621D8000508029 /* Debug */,
@@ -314,7 +315,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D3870D920621D8000508029 /* Build configuration list for PBXNativeTarget "FirstApp3" */ = {
+		3D3870D920621D8000508029 /* Build configuration list for PBXNativeTarget "Light" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D3870DA20621D8000508029 /* Debug */,
